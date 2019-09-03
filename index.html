@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Sally Student Resume</title>
+</head>
+<body>
+    <div id="application-root"></div>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+      function App() {
+        return (
+          <div>
+            <header>
+              <h1>Sally Student</h1>
+            </header>
+            <main>
+              <section>
+                <ul>
+                  <li>Name: Sally Student</li>
+                  <li>Email: sally.student@gmail.com</li>
+                  <li>Phone Number: (123) 456-7890</li>
+                  <li><address>Address: 123 Fake St, Los Angeles, CA 90057</address></li>
+                  <li><img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" width="200" height="250" alt="Photo of Sally Student" /></li>
+                </ul>  
+              </section>
+              <section>
+                <h2>Education</h2>
+                <p>University of Thinkful - Bachelor of Science in Computer Science</p>
+              </section>
+              <section>
+                <h2>Employment History</h2>
+                <ul>
+                  <li>Coding Company
+                    <p>Job Title: Software Engineer</p>
+                    <p>Dates of Employment: July 2016 to October 2018</p>
+                    <p>Job Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae veritatis sed laborum, accusantium ut dolore asperiores ea enim, hic fuga corporis? Id cupiditate, voluptatibus veniam doloribus consectetur quia! Quae, eveniet?</p></li>
+                  <li>Imagination Company
+                    <p>Job Title: Creative Counselor</p>
+                    <p>Dates of Employment: January 2015 to March 2016</p>
+                    <p>Job Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae veritatis sed laborum, accusantium ut dolore asperiores ea enim, hic fuga corporis? Id cupiditate, voluptatibus veniam doloribus consectetur quia! Quae, eveniet?</p></li>
+                </ul>
+              </section>
+            </main>
+          </div>
+          );
+        };
+
+      ReactDOM.render(
+        <App />,
+        document.querySelector('#application-root')
+      );
+    </script>
+</body>
+</html>
+
