@@ -2,9 +2,14 @@
   box-sizing: border-box;
   color: yellow;
   font-family: fantasy;
+  text-align: center;
 }
 
 body {
   background-color: hotpink;
+}
+
+li {
+  list-style: none;
 }
 
